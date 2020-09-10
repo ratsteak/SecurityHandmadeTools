@@ -7,7 +7,7 @@ try:
 	f.write(d.content)
 except:
 	print(sys.exc_info()[0])
-	print("Usage: python wget.py fullurl")
+	print("Usage: python wget.py full url")
 
 
 

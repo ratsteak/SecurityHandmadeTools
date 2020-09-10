@@ -18,7 +18,7 @@ try:
         knocking_port(sys.argv[2],cont)
 except:
     traceback.print_exc()
-    print("USAGE python tcp_scanner.py MAXPORT IP")
+    print("Usage python tcp_scanner.py MAXPORT IP")
 
 
 
